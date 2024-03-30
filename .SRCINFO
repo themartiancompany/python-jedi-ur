@@ -8,16 +8,19 @@ pkgbase = python-jedi
 	checkdepends = python-pytest
 	checkdepends = python-parso
 	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
 	makedepends = python-setuptools
+	makedepends = python-wheel
 	makedepends = python-sphinx
 	makedepends = python-sphinx_rtd_theme
 	depends = python
 	depends = python-parso
-	source = git+https://github.com/davidhalter/jedi#commit=4e175ca82bbd680cb90f462545c10a8b1c0b5f2e
-	source = git+https://github.com/davidhalter/typeshed
-	source = git+https://github.com/davidhalter/django-stubs
-	sha256sums = SKIP
-	sha256sums = SKIP
-	sha256sums = SKIP
+	source = git+https://github.com/davidhalter/jedi.git#tag=v0.19.1
+	source = git+https://github.com/davidhalter/typeshed.git
+	source = git+https://github.com/davidhalter/django-stubs.git
+	b2sums = 0636643f07cad437b411636730604d61d33b036882e5d231f6fcc94a3b7cfac7d68cee36bfb07b7677e2be5fcfeb4cbff7fb6513ee4c3ac085a911183e70c7ff
+	b2sums = SKIP
+	b2sums = SKIP
 
 pkgname = python-jedi
