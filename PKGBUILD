@@ -7,7 +7,7 @@
 
 pkgname=python-jedi
 pkgver=0.19.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Awesome autocompletion for python"
 arch=('any')
 url="https://github.com/davidhalter/jedi"
