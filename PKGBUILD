@@ -197,7 +197,7 @@ package_python-jedi-docs() {
     "${pkgdir}/usr/share/doc/${pkgname}"
   install \
     -Dm644 \
-    "docs/_build/man/jedi.1" \
+    "docs/_build/man/${_pkg}.1" \
     "${pkgdir}/usr/share/man/man1/${pkgname}.1"
   # Symlink license file
   install \
